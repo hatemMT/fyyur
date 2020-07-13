@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  db:
+    image: "postgres:10"
+    container_name: "app_db"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=appdb
