@@ -1,5 +1,13 @@
 Fyyur
 -----
+### Start the database 
+```
+docker-compose up 
+```
+##### Edit the database connection URL in ```./config.py```
+
+### Or run your local database instance
+
 
 ### Introduction
 

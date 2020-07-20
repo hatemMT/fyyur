@@ -9,3 +9,73 @@ J
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 @
 requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+c
+3venv/Lib/site-packages/flask_sqlalchemy/__init__.py,c\0\c0eb58d0cb6ad008c3d59979df1c905619e9544a
+U
+%venv/Lib/site-packages/babel/dates.py,f\3\f320874e4454513afeb9b55eeb9f9b3de01b00fd
+9
+	error.log,d\f\df4ae8a3792e8b71e8bac2f2cf214705a6781af7
+K
+templates/layouts/main.html,4\9\49403ba96b9903ff861a51a3f0736aaa407fde1f
+8
+forms.py,c\c\ccfc7b2aa6eee2527441c2dabab0065899ec3c2a
+N
+templates/forms/new_venue.html,e\0\e00bdeef7fa078416d8db791ea8d4b257c1bd9e5
+M
+templates/forms/new_show.html,4\d\4dc24a761e6236f7ee851a789f1b748fbf34b800
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+9
+	config.py,1\a\1a1b9769344cb239f2e540e1e6ee1efa2d3034ea
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+A
+migrations/README,8\b\8b9948ccb252e634d14f6b7f949d2e629f6f8f2a
+a
+1venv/Lib/site-packages/sqlalchemy/orm/__init__.py,a\7\a7ef824832890b2ef919e58eafbd48d1efb7bda3
+e
+5venv/Lib/site-packages/sqlalchemy/util/langhelpers.py,e\d\eda73458356c68e60981cb7d23bd581a4998f250
+E
+venv/Scripts/activate,4\f\4f74b762145e23b8dc492cb94954f1fc12f60bfd
+7
+init.py,1\c\1c4f59de247623ffd2a7b4224a2eb47a2efef253
+:
+
+filters.py,f\e\fe42ab13180bfe62696b769448b6352e24a99fd8
+9
+	models.py,8\5\85f64e80ba345158acc186d4505f039d4f21420f
+>
+controllers.py,6\8\684fd130086d2018d1aa96d27783ea38ace59cff
+K
+templates/pages/venues.html,d\4\d4eb33b807a5b4d1849c43119f10fa6f1696d428
+K
+templates/layouts/form.html,3\e\3e823744e09986bb0c0487c2a438c3e7e597c2c5
+I
+templates/pages/home.html,5\5\559d309b80f370a1fa04811fd9e6b8153b2fca7b
+]
+-venv/Lib/site-packages/wtforms/fields/core.py,0\d\0d705300a892b33555195ce2f0c7eb09988bbff1
+W
+'venv/Lib/site-packages/flask/helpers.py,5\4\5409ca46d91317c74c2727dd76655ecac45c2b64
+\
+,venv/Lib/site-packages/wtforms/validators.py,a\4\a40fec1ade0641ed129dd76ca0bd9ea53639f6e8
+S
+#templates/pages/search_artists.html,6\7\67a90f0b002ee130584cd21b7bbad7eb2b972864
+O
+templates/forms/new_artist.html,3\a\3a070aaabe5f23466965684a4c37408c4e785629
+P
+ templates/pages/show_artist.html,5\6\566f25db07716d2006d8a2ad443f4c18496e54b2
+P
+ templates/forms/edit_artist.html,a\d\ad468745242567e39b686947b52d93c4a764d1dd
+S
+#venv/Lib/site-packages/flask/app.py,2\c\2c52e8aa5d8f8f7e2f3af48578af66746fec88f1
+R
+"templates/pages/search_venues.html,8\a\8a579094ac695e648aece31370e3681df0090b1c
+c
+3venv/Lib/site-packages/sqlalchemy/sql/expression.py,a\0\a09881278f74c4ee829d12b3b9a12a47e7971929
+Q
+!templates/pages/search_shows.html,f\0\f0ce45de41775eb638901e68c1ecb3f862777eff
+I
+templates/pages/show.html,0\1\01739ecce303607771f006f44ed22aa4cdc0bf4d
+T
+$migrations/versions/81f4a96d0ec0_.py,1\e\1e041b95da2bbc28a6f714e17b83729e1a9d764c
