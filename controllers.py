@@ -68,10 +68,10 @@ def search_venues():
     search_term = request.form.get('search_term', '')
     response = {
         "count": db.session.query(Venue)
-            .filter(Venue.name.like(f'%{search_term}%'))
+            .filter(Venue.name.ilike(f'%{search_term}%'))
             .count(),
         "data": db.session.query(Venue.id, Venue.name, upcoming_query.label('num_upcoming_shows'))
-            .filter(Venue.name.like(f'%{search_term}%'))
+            .filter(Venue.name.ilike(f'%{search_term}%'))
             .all()
     }
 
@@ -158,11 +158,11 @@ def search_artists():
 
     response = {
         "count": db.session.query(Artist)
-            .filter(Artist.name.like(f'%{search_term}%'))
+            .filter(Artist.name.ilike(f'%{search_term}%'))
             .count()
         ,
         "data": db.session.query(Artist.id, Artist.name, upcoming_query.label('num_upcoming_shows'))
-            .filter(Artist.name.like(f'%{search_term}%'))
+            .filter(Artist.name.ilike(f'%{search_term}%'))
     }
     return render_template('pages/search_artists.html', results=response,
                            search_term=search_term)
@@ -285,12 +285,12 @@ def search_shows():
     response = {
         "count": db.session.query(Show)
             .join(Artist).join(Venue)
-            .filter(or_(Venue.name.like(f'%{search_term}%'), Artist.name.like(f'%{search_term}%')))
+            .filter(or_(Venue.name.ilike(f'%{search_term}%'), Artist.name.ilike(f'%{search_term}%')))
             .count(),
         "data": db.session.query(Show.id, Venue.name.label('venue_name'), Artist.name.label('artist_name'),
                                  Show.time.label('start_time'))
             .join(Artist).join(Venue)
-            .filter(or_(Venue.name.like(f'%{search_term}%'), Artist.name.like(f'%{search_term}%')))
+            .filter(or_(Venue.name.ilike(f'%{search_term}%'), Artist.name.ilike(f'%{search_term}%')))
             .all()
     }
 
