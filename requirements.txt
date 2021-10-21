@@ -1,4 +1,4 @@
-babel==2.8.0
+babel==2.9.1
 python-dateutil==2.8.1
 flask-moment
 flask-wtf
